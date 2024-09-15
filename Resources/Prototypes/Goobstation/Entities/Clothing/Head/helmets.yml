@@ -10,7 +10,8 @@
   - type: Clothing
     sprite: Goobstation/Clothing/Head/Helmets/helldiver.rsi
   - type: TemperatureProtection
-    coefficient: 0.1
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
   - type: Armor
     modifiers:
       coefficients:
@@ -23,3 +24,14 @@
     - Hair
     - HeadTop
     - HeadSide
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHEV
+  name: H.E.V helmet
+  description: Not included in a set with crowbar, long jump module and gravity manipulation device.
+  components:
+  - type: Sprite
+    sprite: Goobstation/Clothing/Head/Helmets/hev.rsi
+  - type: Clothing
+    sprite: Goobstation/Clothing/Head/Helmets/hev.rsi

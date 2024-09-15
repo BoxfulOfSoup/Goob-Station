@@ -15,6 +15,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+    - GasMask # goob edit
   - type: HideLayerClothing
     slots:
     - Snout
@@ -44,6 +45,7 @@
     - PetWearable
     - WhitelistChameleon
     - SecurityBreathMask
+  - type: Hailer # Goobstation - Hailer
 
 - type: entity
   parent: [ClothingMaskGas, BaseSyndicateContraband]
@@ -99,7 +101,7 @@
   - type: IngestionBlocker
 
 - type: entity
-  parent: ClothingMaskGasAtmos
+  parent: [ ClothingMaskGasAtmos, BaseCentcommContraband ]
   id: ClothingMaskGasCentcom
   name: CentComm gas mask
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
@@ -112,7 +114,7 @@
   - type: IngestionBlocker
 
 - type: entity
-  parent: ClothingMaskGas
+  parent: [ClothingMaskGas, BaseCargoContraband]
   id: ClothingMaskGasExplorer
   name: explorer gas mask
   description: A military-grade gas mask that can be connected to an air supply.
@@ -212,6 +214,27 @@
   - type: Tag
     tags:
     - ClownMask
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskMad
+  name: abyssal mask
+  description: A mask created from suffering. When you look into its eyes, it looks back.
+  components:
+  - type: SelfUnremovableClothing
+  - type: Sprite
+    sprite: Goobstation/Heretic/mad_mask.rsi
+  - type: Clothing
+    sprite: Goobstation/Heretic/mad_mask.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - Mask
     - WhitelistChameleon
   - type: HideLayerClothing
     slots:
@@ -402,7 +425,7 @@
     sprite: Clothing/Mask/merc.rsi
 
 - type: entity
-  parent: ClothingMaskGasSyndicate
+  parent: [ BaseCentcommContraband, ClothingMaskGasSyndicate ]
   id: ClothingMaskGasERT
   name: ert gas mask
   description: The gas mask of the elite squad of the ERT.
