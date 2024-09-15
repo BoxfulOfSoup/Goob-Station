@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Gingerbread Customization sprites by Github BoxfulOfSoup",
+  "size": {
+	"x": 32,
+	"y": 32
+  },
+  "states": [
+    {
+      "name": "candy_eyes",
+      "directions": 4
+    },
+    {
+      "name": "gingerbread_nose",
+      "directions": 4
+    },
+    {
+      "name": "gingerbread_ponytails",
+      "directions": 4
+    },
+    {
+      "name": "gumdrop_bottom",
+      "directions": 4
+    },
+    {
+      "name": "gumdrop_top",
+      "directions": 4
+    },
+    {
+      "name": "swirl",
+      "directions": 4
+    },
+    {
+      "name": "swoop",
+      "directions": 4
+    }
+  ]
+}

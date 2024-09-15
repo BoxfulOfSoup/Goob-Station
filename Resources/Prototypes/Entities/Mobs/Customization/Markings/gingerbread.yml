@@ -1,0 +1,56 @@
+- type: marking
+  id: GingerbreadSwirl
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: swirl
+- type: marking
+  id: GingerbreadSwoop
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: swoop
+- type: marking
+  id: GingerbreadPonytails
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: gingerbread_ponytails
+- type: marking
+  id: GingerbreadCandyEyes
+  bodyPart: Eyes
+  markingCategory: Overlay
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: candy_eyes
+- type: marking
+  id: GingerbreadNose
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: gingerbread_nose
+- type: marking
+  id: GingerbreadGumdropTop
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: gumdrop_top
+- type: marking
+  id: GingerbreadGumdropBottom
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread.rsi
+    state: gumdrop_bottom
